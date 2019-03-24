@@ -1,6 +1,6 @@
-# Starter Template
+# Dayshmookh Pictures
 
-A website starter template.
+Website repository.
 
 ## Instructions
 

@@ -1,23 +1,24 @@
 {
-  "name": "website-rainbow-creations",
+  "name": "website-dayshmookh-pictures",
   "version": "1.0.0",
-  "description": "a website for rainbow creations nagpur",
+  "description": "A website for Dayshmookh Pictures",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall":"gulp",
     "start": "node index.js",
     "dev": "concurrently --kill-others \"gulp dev\" \"nodemon -r dotenv/config index.js\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/root-kings/website-rainbow-creations.git"
+    "url": "git+https://github.com/root-kings/website-dayshmookh-pictures.git"
   },
   "author": "Ankita Belani <ankitabelani@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/root-kings/website-rainbow-creations/issues"
+    "url": "https://github.com/root-kings/website-dayshmookh-pictures/issues"
   },
-  "homepage": "https://github.com/root-kings/website-rainbow-creations#readme",
+  "homepage": "https://github.com/root-kings/website-dayshmookh-pictures#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
