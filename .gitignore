@@ -64,3 +64,5 @@ typings/
 **/.directory
 **/._*
 **/.DS_Store
+
+temp/

@@ -1,22 +1,28 @@
 .navbar-fixed
-    nav.white.z-depth-0
+    nav.grey.darken-4
         .nav-wrapper
-            a.teal-text(data-target="slide-out" href="#").sidenav-trigger
+            a.yellow-text.text-darken-4(data-target="slide-out" href="#").sidenav-trigger
                 i.material-icons menu
-            a.teal-text.brand-logo(href="/") Dayshmookh Pictures
+            a.brand-logo(href="/") Dayshmookh Pictures
 
             ul.right.hide-on-med-and-down
                 li
-                    a.teal-text(href="/") Home
-
+                    a.yellow-text.text-darken-4(href="/") Home
                 li
-                    a.teal-text(href="/about") About
+                    a.yellow-text.text-darken-4(href="/services") Services
+                li
+                    a.yellow-text.text-darken-4(href="/about") About
+                li
+                    a.yellow-text.text-darken-4(href="/contact") Contact
 
 
 ul#slide-out.sidenav
     li
         a(href="/") Home
-            i.material-icons.left home
+            //- i.material-icons.left home
+    li
+        a(href="/services") Services
     li
         a(href="/about") About
-            i.material-icons.left info
+    li
+        a(href="/contact") Contact
