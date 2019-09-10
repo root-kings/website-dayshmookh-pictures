@@ -33,6 +33,21 @@ app.set('views', './views')
 
 app.use('/', require('./routes'))
 
+app.use(function(req, res) {
+	res.status(404)
+	if (req.accepts('html')) {
+		return res.render('404', {
+			url: req.url
+		})
+	}
+	if (req.accepts('json')) {
+		return res.send({
+			error: 'Not found'
+		})
+	}
+	res.type('txt').send('Not found')
+})
+
 app.listen(PORT, err => {
 	if (err) {
 		throw err
