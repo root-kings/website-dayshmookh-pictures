@@ -5,90 +5,88 @@ head
 	meta(charset="utf-8")
 	meta(name="viewport" content="width=device-width, initial-scale=1, user-scalable=no")
 	link(rel="stylesheet" href="/css/main.css")
-#page-wrapper
-	//- Header
-	header#header
-		h1
-			a(href="index.html") Dayshmookh Pictures
-		nav#nav
-			ul
+body.is-preload
+	#page-wrapper
+		//- Header
+		header#header
+			h1
+				a(href="/") Dayshmookh Pictures
+			nav#nav
+				ul
+					li
+						a(href="/") Home
+					li
+						a.icon.solid.fa-angle-down(href="#") Layouts
+						ul
+							li
+								a(href="/generic") Generic
+							li
+								a(href="/contact") Contact
+							li
+								a(href="/elements") Elements
+							li
+								a(href="#") Submenu
+								ul
+									li
+										a(href="#") Option One
+									li
+										a(href="#") Option Two
+									li
+										a(href="#") Option Three
+									li
+										a(href="#") Option Four
+					li
+						a.button(href="#") Sign Up
+		//- Main
+		section#main.container
+			header
+				h2 Generic
+				p A generic page for every non-generic situation.
+			.box
+				span.image.featured
+					img(src="images/pic01.jpg" alt="")
+				h3 This is a subheading
+				p
+					| Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.
+				.row
+					.row-6.row-12-mobilep
+						h3 And now a subheading
+						p
+							| Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.
+					.row-6.row-12-mobilep
+						h3 And another subheading
+						p
+							| Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.
+		//- Footer
+		footer#footer
+			ul.icons
 				li
-					a(href="index.html") Home
+					a.icon.brands.fa-twitter(href="#")
+						span.label Twitter
 				li
-					a.icon.solid.fa-angle-down(href="#") Layouts
-					ul
-						li
-							a(href="generic.html") Generic
-						li
-							a(href="contact.html") Contact
-						li
-							a(href="elements.html") Elements
-						li
-							a(href="#") Submenu
-							ul
-								li
-									a(href="#") Option One
-								li
-									a(href="#") Option Two
-								li
-									a(href="#") Option Three
-								li
-									a(href="#") Option Four
+					a.icon.brands.fa-facebook-f(href="#")
+						span.label Facebook
 				li
-					a.button(href="#") Sign Up
-	//- Main
-	section#main.container
-		header
-			h2 Generic
-			p A generic page for every non-generic situation.
-		.box
-			span.image.featured
-				img(src="images/pic01.jpg" alt="")
-			h3 This is a subheading
-			p
-				| Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.
-			.row
-				.row-6.row-12-mobilep
-					h3 And now a subheading
-					p
-						| Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.
-				.row-6.row-12-mobilep
-					h3 And another subheading
-					p
-						| Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.
-	//- Footer
-	footer#footer
-		ul.icons
-			li
-				a.icon.brands.fa-twitter(href="#")
-					span.label Twitter
-			li
-				a.icon.brands.fa-facebook-f(href="#")
-					span.label Facebook
-			li
-				a.icon.brands.fa-instagram(href="#")
-					span.label Instagram
-			li
-				a.icon.brands.fa-github(href="#")
-					span.label Github
-			li
-				a.icon.brands.fa-dribbble(href="#")
-					span.label Dribbble
-			li
-				a.icon.brands.fa-google-plus(href="#")
-					span.label Google+
-		ul.copyright
-			li
-				| © Dayshmookh Pictures. All rights reserved.
-//- Scripts
-script(src="/js/jquery.min.js")
-script(src="/js/jquery.dropotron.min.js")
-script(src="/js/jquery.scrollex.min.js")
-script(src="/js/browser.min.js")
-script(src="/js/breakpoints.min.js")
-script(src="/js/util.js")
-script(src="/js/alpha.js")
-//
-	Dayshmookh Pictures
-//
-	Dayshmookh Pictures
+					a.icon.brands.fa-instagram(href="#")
+						span.label Instagram
+				li
+					a.icon.brands.fa-github(href="#")
+						span.label Github
+				li
+					a.icon.brands.fa-dribbble(href="#")
+						span.label Dribbble
+				li
+					a.icon.brands.fa-google-plus(href="#")
+						span.label Google+
+			ul.copyright
+				li
+					| © Dayshmookh Pictures. All rights reserved.
+	//- Scripts
+	script(src="/js/jquery.min.js")
+	script(src="/js/jquery.dropotron.min.js")
+	script(src="/js/jquery.scrollex.min.js")
+	script(src="/js/browser.min.js")
+	script(src="/js/breakpoints.min.js")
+	script(src="/js/util.js")
+	script(src="/js/alpha.js")
+	
